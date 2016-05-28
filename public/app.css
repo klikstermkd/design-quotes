@@ -1,0 +1,96 @@
+.header {
+  background-color: #FF6B7D;
+  color: #FFFFFF;
+  font-size: 22px;
+  padding: 20px 0 20px 25px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 25%;
+}
+
+.right-container {
+  width: 75%;
+  border-left: 1px solid #E8EBEE;
+}
+
+.toolbar {
+  display: flex;
+  height: 50px;
+}
+
+.menu-container {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.menu span {
+  display: inline;
+}
+
+.menu span a {
+  text-decoration: none;
+  color: #B2BAC4;
+}
+
+.menu .active {
+  color: #FF7082;
+}
+
+.menu span:not(:last-child) {
+  padding-right: 32px;
+}
+
+.menu-border {
+  width: 68px;
+  height: 5px;
+  background-color: #FF6B7D;
+  transform: translate(62px, 22px);
+  transition: transform .2s;
+}
+
+.search-container {
+  width: 25%;
+  border-left: 1px solid #E8EBEE;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 80%;
+  color: #D3D8DD;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+::-webkit-input-placeholder {
+  color: #D3D8DD;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #D3D8DD;  
+}
+
+:-ms-input-placeholder {  
+  color: #D3D8DD;  
+}
+
+.main-content {
+  border-top: 1px solid #E8EBEE;
+  border-bottom: 1px solid #E8EBEE;
+  background-color: #F7FBFF;
+  height: 100%;
+}

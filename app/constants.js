@@ -1,0 +1,1 @@
+export const FIREBASE_URL = 'https://design-quotes.firebaseio.com/';
